@@ -1,0 +1,122 @@
+body {
+    background-color: lightgray;
+    font-family: Verdana;
+}
+
+#winner {
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100px;
+    height: 30px;
+}
+
+@media only screen and (min-width: 751px) {
+    #pokemon1 {
+        position: absolute;
+        bottom: calc(50% - 48px);
+        left: 20%;
+    }
+
+    #pokemon2 {
+        position: absolute;
+        bottom: calc(50% - 48px);
+        right: 20%;
+    }
+}
+@media only screen and (max-width: 750px) {
+    #pokemon1 {
+        position: absolute;
+        bottom: calc(50% - 48px);
+        left: 15%;
+    }
+
+    #pokemon2 {
+        position: absolute;
+        bottom: calc(50% - 48px);
+        right: 15%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #pokemon1 {
+        position: absolute;
+        bottom: calc(50% - 48px);
+        left: 10%;
+    }
+
+    #pokemon2 {
+        position: absolute;
+        bottom: calc(50% - 48px);
+        right: 10%;
+    }
+    #winner {
+        position: absolute;
+        font-size: 16px;
+        text-align: center;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 100px;
+        height: 30px;
+    }
+}
+
+.poke-name {
+    text-align: center;
+}
+
+.move-name {
+    text-align: center;
+}
+
+#roll {
+    font-size: 20px;
+    margin-top: 8vh;
+    margin-bottom: 0;
+}
+
+#fight {
+    font-size: 20px;
+    margin-top: 40vh;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+#footer {
+    margin: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+
+#footer-link {
+    display: block;
+    text-align: center;
+    padding: 10px 5px;
+    text-decoration: none;
+}
